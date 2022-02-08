@@ -2,7 +2,7 @@
 data "terraform_remote_state" "global" {
   backend = "remote"
   config = {
-    organization = "cisco-intersight-demo"
+    organization = "cloudsoftwareteam-tfc"
     workspaces = {
       name = var.globalwsname
     }
