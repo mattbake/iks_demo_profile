@@ -40,9 +40,9 @@ variable "mgmtcfgsshkeys" {
 
 
 provider "intersight" {
-  apikey        = var.api_key
+  apikey    = var.api_key
   secretkey = var.secretkey
-  endpoint      = "https://intersight.com"
+  endpoint  = "https://intersight.com"
 }
 
 data "intersight_organization_organization" "organization_moid" {
