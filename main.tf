@@ -20,7 +20,7 @@ terraform {
 }
 
 
-
+#variable definitions
 variable "api_key" {
   type        = string
   description = "API Key"
