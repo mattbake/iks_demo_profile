@@ -1,4 +1,4 @@
-#get the data fro the global vars WS
+#get the data from the global vars WS
 data "terraform_remote_state" "global" {
   backend = "remote"
   config = {
